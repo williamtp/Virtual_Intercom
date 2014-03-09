@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="hello">Hello World, MyDialerActivity!</string>
+    <string name="app_name">电话</string>
+    <string name="save">保存</string>
+    <string name="send">发送</string>
+    <string name="dial">呼叫</string>
+
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+</resources>

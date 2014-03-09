@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/callInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/doorStatus"
+        android:layout_alignParentTop="true"
+        android:background="@color/light_blue"
+        android:gravity="center"
+        android:text=""
+        android:textSize="32sp" />
+    
+    <Button
+        android:id="@+id/btnUnlock"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/subscriberview"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Release Door" />
+
+    <ImageView
+        android:id="@+id/doorStatus"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/door_open"
+         />
+
+    <ImageView
+        android:id="@+id/subscriberview"
+        android:layout_width="fill_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/doorStatus"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/smart_intercom" />
+
+</RelativeLayout>

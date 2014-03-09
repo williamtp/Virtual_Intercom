@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="150dp"
+    android:paddingRight="150dp"
+    tools:context=".Calling" >
+    
+    <TextView
+        android:id="@+id/userInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity = "center_horizontal"
+        android:background="@color/blue"
+        android:textSize="32sp"
+        android:textColor="#000000">
+    </TextView>
+    
+    <SurfaceView 
+        android:id="@+id/selfView"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:layout_below="@+id/userInfo"
+        android:layout_above="@+id/cancel" >"
+    </SurfaceView>
+    
+    <SurfaceView
+        android:id="@+id/mobileView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_above="@id/selfView" >
+
+    </SurfaceView>
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:gravity = "right"
+        android:layout_below="@+id/userInfo" >
+       </TextView> 
+    
+    
+    
+    <Button
+	     android:id="@+id/cancel"
+	     android:layout_width="fill_parent"
+	     android:layout_height="50dp"
+	     android:textSize="32sp"
+	     android:layout_alignParentBottom="true"
+	     android:background="@drawable/back_selector"
+     	 android:text="Cancel" />
+
+    <ProgressBar
+        android:id="@+id/opponentImageLoading"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="180dp"
+        android:layout_marginLeft="96dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/msgDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity = "center_horizontal"
+        android:layout_centerVertical="true" 
+        android:textSize="32sp" />
+
+</RelativeLayout>

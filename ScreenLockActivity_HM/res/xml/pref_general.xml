@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:defaultValue="192.168.2.107"
+        android:key="HostName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Server IP Address" />
+    
+    <EditTextPreference
+        android:defaultValue="6000"
+        android:key="Port"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Communication Port" />
+    
+    <EditTextPreference
+        android:defaultValue="703"
+        android:key="UnitNO"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Resident Unit NO" />
+    
+    <EditTextPreference
+        android:defaultValue="Jiseung Hong"
+        android:key="UserName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="User Name" />
+    
+    <EditTextPreference android:key="StreamServerIP" 
+        android:title="Stream Server: demo.anychat.cn/54.254.236.129"
+        android:selectAllOnFocus="true"
+        android:defaultValue="54.254.236.129" />
+    
+    <EditTextPreference android:key="StreamServerPort" 
+        android:title="Stream Server Port"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="8906" />
+   
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

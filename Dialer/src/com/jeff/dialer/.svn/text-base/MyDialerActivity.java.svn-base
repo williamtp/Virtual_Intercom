@@ -1,0 +1,137 @@
+package com.jeff.dialer;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.InputType;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MyDialerActivity extends Activity implements OnClickListener {
+	private Button btnCancel, btnSave, btnSend, btnDial;
+	private String[] numbers;
+	private EditText edtNumber;
+	private Context mContext;
+	private StringBuffer content;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.dialer_layout);
+		mContext = this;
+		numbers = getResources().getStringArray(R.array.numbers);
+		edtNumber = (EditText) findViewById(R.id.edtNumber);
+		edtNumber.setInputType(InputType.TYPE_NULL);
+		content = new StringBuffer();
+		btnCancel = (Button) findViewById(R.id.btnCancel);
+		btnSave = (Button) findViewById(R.id.btnSave);
+		btnSend = (Button) findViewById(R.id.btnSend);
+		btnDial = (Button) findViewById(R.id.btnOut);
+		btnCancel.setOnClickListener(this);
+		btnSave.setOnClickListener(this);
+		btnSend.setOnClickListener(this);
+		btnDial.setOnClickListener(this);
+		findViewById(R.id.btn_0).setOnClickListener(this);
+		findViewById(R.id.btn_1).setOnClickListener(this);
+		findViewById(R.id.btn_2).setOnClickListener(this);
+		findViewById(R.id.btn_3).setOnClickListener(this);
+		findViewById(R.id.btn_4).setOnClickListener(this);
+		findViewById(R.id.btn_5).setOnClickListener(this);
+		findViewById(R.id.btn_6).setOnClickListener(this);
+		findViewById(R.id.btn_7).setOnClickListener(this);
+		findViewById(R.id.btn_8).setOnClickListener(this);
+		findViewById(R.id.btn_9).setOnClickListener(this);
+		findViewById(R.id.btn_10).setOnClickListener(this);
+		findViewById(R.id.btn_sound).setOnClickListener(this);
+	}
+
+	@Override
+	public void onClick(View v) {
+		int id = v.getId();
+		switch (id) {
+		case R.id.btnSave:
+			
+			break;
+		case R.id.btnSend:
+			Uri smsToUri = Uri.parse("smsto://"+edtNumber.getText().toString());
+			Intent mIntent = new Intent(Intent.ACTION_SENDTO, smsToUri );
+			startActivity( mIntent );
+			break;
+		case R.id.btnOut:
+			Uri dialToUri = Uri.parse("tel:"+edtNumber.getText().toString());
+			Intent intent = new Intent(Intent.ACTION_CALL, dialToUri );
+			startActivity( intent );
+			break;
+		case R.id.btnCancel:
+			edtNumber.setText(edtNumber.getText().toString());
+			setEditValue();
+			break;
+		case R.id.btn_0:
+			content.append("0");
+			clear();
+			break;
+		case R.id.btn_1:
+			content.append("1");
+			clear();
+			break;
+		case R.id.btn_2:
+			content.append("2");
+			clear();
+			break;
+		case R.id.btn_3:
+			content.append("3");
+			clear();
+			break;
+		case R.id.btn_4:
+			content.append("4");
+			clear();
+			break;
+		case R.id.btn_5:
+			content.append("5");
+			clear();
+			break;
+		case R.id.btn_6:
+			content.append("6");
+			clear();
+			break;
+		case R.id.btn_7:
+			content.append("7");
+			clear();
+			break;
+		case R.id.btn_8:
+			content.append("8");
+			clear();
+			break;
+		case R.id.btn_9:
+			content.append("9");
+			clear();
+			break;
+		case R.id.btn_10:
+			content.append("#");
+			clear();
+			break;
+		}
+	}
+	
+	private void clear(){
+		edtNumber.setText(content.toString());
+//		content.deleteCharAt(content.toString().length());
+//		delete(0, content.toString().length());
+	};
+	
+	private void setEditValue() {
+		int len = content.toString().length();
+//			edtNumber.getText().length();
+		if (len > 0) {
+			edtNumber.getText().delete(len - 1, len);
+			int nowLen = len - 1;
+			nowLen = len;
+//			edtNumber.setSelection(len - 1);
+		}
+	}
+}

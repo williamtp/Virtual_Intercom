@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2012-04-01T14:07:03.204984Z"
+   url="https://free.svnspot.com/skyljs.mms/MyDialer/res/drawable-hdpi"
+   last-author="lambert"
+   kind="dir"
+   repos="https://free.svnspot.com/skyljs.mms"
+   revision="129"/>
+<entry
+   committed-rev="129"
+   name="ic_launcher.png"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="b627720bde39c611e308368d97d33af5"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.421875Z"/>
+<entry
+   committed-rev="129"
+   name="background.png"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="ff2e433135f60398874821300dcc76b5"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.546875Z"/>
+<entry
+   committed-rev="129"
+   name="array_pressed.png"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="7ddfffc3b3afac60e355ad3e0c19ac24"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.687500Z"/>
+<entry
+   committed-rev="129"
+   name="array_normal.png"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="895ed5b7fc8bd1c6feb383058f7cc413"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.640625Z"/>
+<entry
+   committed-rev="129"
+   name="icon.png"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="965aafe9ddc87176ae94d389924e421c"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.468750Z"/>
+<entry
+   committed-rev="129"
+   name="sound.png"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="546e618ed20c808dcea79ec31603c786"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.625000Z"/>
+<entry
+   committed-rev="129"
+   name="sound_1.png"
+   text-time="2012-04-01T00:32:35.968750Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="71335514af151d79ec57c6100eb090e8"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.671875Z"/>
+</wc-entries>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerCallActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Unit NO : 1234" 
+        android:textSize="32sp"
+        android:gravity="center"
+        android:background="@color/light_blue"
+        android:id="@+id/callInfo"/>
+
+    
+    <SurfaceView
+        android:id="@+id/tabletView"
+        android:layout_height="fill_parent"
+        android:layout_width="400dp"
+        android:layout_below="@+id/callInfo"/>
+    <SurfaceView
+        android:id="@+id/selftView"
+        android:layout_height="1dp"
+        android:layout_width="1dp"
+        android:layout_below="@+id/tabletView"/>
+    
+  <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/callInfo"
+        android:layout_toRightOf="@+id/tabletView"
+        android:orientation="vertical" >
+
+       <Button
+           android:id="@+id/btnAllow"
+           android:layout_width="160dp"
+           android:layout_height="60dp"
+           android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:background="@drawable/buttonstyle"
+           android:text="Release Door" />
+       
+	    
+	    <Button
+	        android:id="@+id/btnDeny"
+	        android:layout_width="160dp"
+		    android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+           android:layout_marginLeft="16dp"
+           android:background="@drawable/buttonstyle"
+	        android:text="Deny   Call" />
+	    
+	    
+		<Button
+	        android:id="@+id/btnEndcall"
+	        android:layout_width="160dp"
+		    android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/buttonstyle"
+	        android:text="End   Call" />   
+	        
+	</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/opponentImageLoading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="91dp"
+        android:layout_marginLeft="164dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

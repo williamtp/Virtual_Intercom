@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2012-04-01T14:07:03.204984Z"
+   url="https://free.svnspot.com/skyljs.mms/MyDialer/res/layout"
+   last-author="lambert"
+   kind="dir"
+   repos="https://free.svnspot.com/skyljs.mms"
+   revision="129"/>
+<entry
+   committed-rev="129"
+   name="grid_item.xml"
+   text-time="2012-04-01T00:32:35.968750Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="71fb193ca54775b47cffb4ca0c388e2d"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="main.xml"
+   text-time="2012-04-01T03:31:47.546875Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="0c97707b83d5aa7b160e2f0519062ba6"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="dialer_layout.xml"
+   text-time="2012-04-01T08:55:27.750000Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="310874a9ec435b84f4a7d3b025b0a275"
+   last-author="lambert"
+   kind="file"/>
+</wc-entries>

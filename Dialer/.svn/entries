@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2012-04-01T14:07:03.204984Z"
+   url="https://free.svnspot.com/skyljs.mms/MyDialer"
+   last-author="lambert"
+   kind="dir"
+   uuid="aa9d617c-6827-2ca9-ff7f-cc6ef08bc696"
+   repos="https://free.svnspot.com/skyljs.mms"
+   revision="129"/>
+<entry
+   committed-rev="129"
+   name="default.properties"
+   text-time="2012-04-01T00:32:35.937500Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="04be94cac8afaa5f4800d9791529952a"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name=".classpath"
+   text-time="2012-04-01T00:32:35.796875Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="12399b8dc5b716997adf4932150eed63"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="project.properties"
+   text-time="2012-04-01T00:32:35.937500Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="f55eee5cb7aab0b03e38714dca2548d5"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="proguard.cfg"
+   text-time="2012-04-01T00:32:35.937500Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="03ea0fdd0a4aabc43b80216d64438921"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   committed-rev="129"
+   name=".project"
+   text-time="2012-04-01T00:32:35.859375Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="5bf1fd13f1024e44f6abae8ccde30445"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="AndroidManifest.xml"
+   text-time="2012-04-01T00:32:35.859375Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="87885110324a1023ef7eb84c821b9937"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="res"
+   kind="dir"/>
+</wc-entries>

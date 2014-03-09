@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AnswerCallActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Unit NO : 1234" 
+        android:textSize="32sp"
+        android:gravity="center"
+        android:background="@color/light_blue"
+        android:id="@+id/callInfo"/>
+
+    
+    <SurfaceView
+        android:id="@+id/tabletView"
+        android:layout_height="380dp"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/callInfo"/>
+    <SurfaceView
+        android:id="@+id/selftView"
+        android:layout_height="1dp"
+        android:layout_width="1dp"
+        android:layout_below="@+id/tabletView"/>
+    
+     
+     <ProgressBar
+        android:id="@+id/opponentImageLoading"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="150dp"
+        android:layout_below="@+id/callInfo"
+        android:visibility="visible"/>
+     
+     <TextView
+        android:id="@+id/msgDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity = "center_horizontal"
+        android:layout_centerVertical="true" 
+        android:textSize="32sp" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/tabletView"
+        android:orientation="vertical" >
+    
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/line"
+	        android:background="@color/black" />
+	
+	   <LinearLayout
+	  	    android:id="@+id/linearLayout1"
+	  	    android:layout_width="fill_parent"
+	  	    android:layout_height="90dp"
+	  	    android:layout_below="@+id/seprateline"
+	  	    android:gravity="center" >
+	 
+		        
+		    <Button
+		    	android:id="@+id/btnAllow"
+			    android:layout_width="115dp"
+			    android:layout_height="fill_parent"
+			    android:gravity="center"
+		     	android:textSize="15sp"
+			    android:background="@drawable/back_selector"
+			    android:text="Release Door" />
+		
+		    <View
+		            android:layout_width="@dimen/line"
+		            android:layout_height="fill_parent"
+		            android:background="@color/black" />
+		    
+		    <Button
+		        android:id="@+id/btnDeny"
+		        android:layout_width="115dp"
+			    android:layout_height="fill_parent"
+			    android:gravity="center"
+		     	android:textSize="15sp"
+		        android:background="@drawable/back_selector"
+		        android:text="Deny Call" />
+		    
+		    <View
+		            android:layout_width="@dimen/line"
+		            android:layout_height="fill_parent"
+		            android:background="@color/black" />
+		    
+			<Button
+		        android:id="@+id/btnEndcall"
+		        android:layout_width="115dp"
+			    android:layout_height="fill_parent"
+			    android:gravity="center"
+		     	android:textSize="15sp"
+		        android:background="@drawable/back_selector"
+		        android:text="End Call" />   
+	    </LinearLayout>
+	    
+	  	<View
+	        android:layout_width="match_parent"
+	        android:layout_height="@dimen/line"
+	        android:background="@color/black" />
+
+	</LinearLayout>
+
+</RelativeLayout>

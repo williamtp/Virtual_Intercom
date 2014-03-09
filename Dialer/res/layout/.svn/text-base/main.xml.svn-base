@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selector"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:text="@string/save"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+        <View
+            android:layout_width="@dimen/line"
+            android:layout_height="fill_parent"
+            android:background="@color/gray" />
+        <Button
+            android:id="@+id/btnNoAccept"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selector"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:text="@string/send"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+        <View
+            android:layout_width="@dimen/line"
+            android:layout_height="fill_parent"
+            android:background="@color/gray" />
+        <Button
+            android:id="@+id/btnOut"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_selector"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            android:text="@string/dial"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/gray" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/edtNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:text="1368956589"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:textStyle="bold" >
+            <requestFocus />
+        </EditText>
+
+        <View
+            android:layout_width="@dimen/line"
+            android:layout_height="fill_parent"
+            android:background="@color/gray" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:text="back" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/line"
+        android:background="@color/gray" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="2px"
+        android:verticalSpacing="2px"
+        android:listSelector="@drawable/back_selector"
+        android:numColumns="3" >
+    </GridView>
+
+</LinearLayout>

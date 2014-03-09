@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Intercom</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="unlock">UnLock</string>
+    <string name="clear_call">clear call</string>
+    <string name="title_activity_answer_call">AnswerCallActivity</string>
+    <string name="answerCall"></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_setting">Setting</string>
+
+    <color name="background">#E5FFCC</color>
+    <color name="light_blue">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="green">#46FABE</color>
+    <color name="blue">#0A85FF</color>
+
+    <string name="title_activity_test_m">TestM</string>
+    <string name="title_activity_fire_alarm">FireAlarmActivity</string>
+    <string name="title_activity_video_chat">VideoChatActivity</string>
+
+</resources>

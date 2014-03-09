@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2012-04-01T14:07:03.204984Z"
+   url="https://free.svnspot.com/skyljs.mms/MyDialer/res/drawable-ldpi"
+   last-author="lambert"
+   kind="dir"
+   repos="https://free.svnspot.com/skyljs.mms"
+   revision="129"/>
+<entry
+   committed-rev="129"
+   name="ic_launcher.png"
+   text-time="2012-04-01T00:32:35.968750Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="264c735b1cd5f1c4e9b665e90eaf30ce"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.531250Z"/>
+<entry
+   committed-rev="129"
+   name="icon.png"
+   text-time="2012-04-01T00:32:35.968750Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="3e0beb16a60874278f15994e78fbc318"
+   last-author="lambert"
+   kind="file"
+   prop-time="2012-04-01T14:07:15.640625Z"/>
+</wc-entries>

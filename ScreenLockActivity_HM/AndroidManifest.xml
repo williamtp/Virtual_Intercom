@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p2pclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <application
+        android:name="com.example.p2pclient.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.example.p2pclient.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.ScreenLockActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.example.p2pclient.CommService" >
+        </service>
+        <service android:name="com.example.p2pclient.VideoContext" >
+        </service>
+
+        <receiver android:name="com.example.p2pclient.commService$startUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" >
+                </action>
+                <action android:name="android.intent.category.LAUNCHER" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.p2pclient.AnswerCallActivity"
+            android:label="@string/title_activity_answer_call"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.Setting"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.TestM"
+            android:label="@string/title_activity_test_m"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.FireAlarmActivity"
+            android:label="@string/title_activity_fire_alarm"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.VideoChatActivity"
+            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_video_chat" >
+        </activity>
+        <activity
+            android:name="com.example.p2pclient.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

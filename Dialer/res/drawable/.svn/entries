@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2012-04-01T14:07:03.204984Z"
+   url="https://free.svnspot.com/skyljs.mms/MyDialer/res/drawable"
+   last-author="lambert"
+   kind="dir"
+   repos="https://free.svnspot.com/skyljs.mms"
+   revision="129"/>
+<entry
+   committed-rev="129"
+   name="back_selector.xml"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="a3bf4c01d7bd814a1e90c3d154aabe9c"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="arror_selector.xml"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="97903228c53e21f6a40c8cb82a34bafe"
+   last-author="lambert"
+   kind="file"/>
+<entry
+   committed-rev="129"
+   name="sound_selector.xml"
+   text-time="2012-04-01T00:32:35.953125Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="0f8b67a22b2babc441637c369917ab4f"
+   last-author="lambert"
+   kind="file"/>
+</wc-entries>

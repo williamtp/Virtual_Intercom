@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2012-04-01T14:07:03.204984Z"
+   url="https://free.svnspot.com/skyljs.mms/MyDialer/src/com/jeff/dialer"
+   last-author="lambert"
+   kind="dir"
+   repos="https://free.svnspot.com/skyljs.mms"
+   revision="129"/>
+<entry
+   committed-rev="129"
+   name="MyDialerActivity.java"
+   text-time="2012-04-01T11:09:26.140625Z"
+   committed-date="2012-04-01T14:07:03.204984Z"
+   checksum="7ccaac06d64886bc09de2e10fea8c003"
+   last-author="lambert"
+   kind="file"/>
+</wc-entries>

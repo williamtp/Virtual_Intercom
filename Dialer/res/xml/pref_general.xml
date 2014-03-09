@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference android:key="UNIPAddr" 
+        android:title="UN Address"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="192.168.1.20" />
+    
+    <EditTextPreference android:key="ServicePort" 
+        android:title="Communication Port"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="6000" />
+    
+    <EditTextPreference android:key="StreamServerIP" 
+        android:title="Stream Server IP"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="demo.anychat.cn" />
+    
+    <EditTextPreference android:key="StreamServerPort" 
+        android:title="Stream Server Port"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="8906" />
+    
+    <EditTextPreference android:key="VideoFrameRate" 
+        android:title="Video Frame Rate"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="10" />
+    
+    <EditTextPreference android:key="VideoBitRate" 
+        android:title="Video Bit Rate"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="150000" />
+    
+    <EditTextPreference android:key="VideoQuality" 
+        android:title="Video Quality(1:normal;2:good;3:best)"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:defaultValue="1" />
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>
